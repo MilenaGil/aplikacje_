@@ -1,4 +1,3 @@
 <?php
 
-$zmienna="Hello";
-echo $zmienna;
+echo 'Hi';

@@ -35,13 +35,17 @@ body {
     }
 
 .login-container {
-    width: 50%;
+    
     text-align: center;
+    background: transparent linear-gradient(180deg, #C13476 0%, #392F82 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #109494;
+    border-radius: 52px;
 
-    
-    width: 135px;
-    height: 67px;
-    
+    top: 292px;
+    left: 379px;
+    width: 1162px;
+    height: 671px;
+        
 }
 
 .form{
@@ -49,4 +53,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    height: 40vh;
+
+}
+
+button{
+    
+
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #92F3F1 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #109494;
+    border-radius: 57px;
+    font: normal normal 600 50px/67px Segoe UI;
+    width: 33%;
+    color: #025C5C;
+    margin: 1em;
+    line-height: 2.5em;
+}
+
+input{
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+    text-align: left;
+    font: normal normal 600 50px/67px Segoe UI;
+    color: #FFFFFF;
+    margin: 1em;
+    width: 50%;
+
 }

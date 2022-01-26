@@ -115,23 +115,64 @@ input{
     }
 }
 
+/*STR2:*/
 
 .container2{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    
+    width: 100vw;
     height: 100vh;
+    background: transparent url('../img/tlo2.svg') 0% 0% no-repeat padding-box;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+        /*justify-content: flex-start;*/
     
 }
 
 header{
-    width: 80vw;
+    width: 100vw;
+    height: 17vh;
     background: transparent linear-gradient(180deg, #BD6C96 0%, #9C2060 40%, #692872 70%, #4A2D7E 100%) 0% 0% no-repeat padding-box;
     border: 5px solid #047373;
     margin: 0;
+    
 }
 
-.buttons{
-    background: transparent url('img/Image 4.png') 0% 0% no-repeat padding-box;
-    opacity: 0.3;
+.search-bar{
+    top: 18px;
+    left: 931px;
+    width: 930px;
+    height: 120px;
+
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    border: 5px solid #047373;
+    place-self: end;
+    
+}
+
+
+/*STR3:*/
+
+.container3{
+    width: 100vw;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #F1F7F7 0%, #047373 53%, #09F8F8 100%) 0% 0% no-repeat padding-box;
+}
+
+.logo3{
+    top: -569px;
+    left: -809px;
+
+
+}
+.search-bar2{
+    top: 38px;
+    left: 179px;
+    width: 1573px;
+    height: 163px;
+    
+    background: #025D5D 0% 0% no-repeat padding-box;
+    border: 5px solid #050F0F;
 }

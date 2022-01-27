@@ -17,6 +17,7 @@ body {
 
     text-align: center;
     
+    
     top: 118px;
     left: 770px;
     width: 381px;
@@ -71,6 +72,10 @@ button{
     line-height: 2.5em;
 }
 
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+  }
+
 input{
 
     background-color: transparent;
@@ -115,64 +120,64 @@ input{
     }
 }
 
-/*STR2:*/
 
-.container2{
-    
+
+.container2 {
     width: 100vw;
     height: 100vh;
     background: transparent url('../img/tlo2.svg') 0% 0% no-repeat padding-box;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-        /*justify-content: flex-start;*/
-    
 }
 
-header{
-    width: 100vw;
+
+.header1{
+    width: 100vw-20px;
     height: 17vh;
     background: transparent linear-gradient(180deg, #BD6C96 0%, #9C2060 40%, #692872 70%, #4A2D7E 100%) 0% 0% no-repeat padding-box;
-    border: 5px solid #047373;
+    border: 10px solid #047373;
     margin: 0;
-    
+
+    display: flex;
+
 }
 
-.search-bar{
-    top: 18px;
-    left: 931px;
+.logo2{
+    margin: 2em;
+}
+
+.search-ski-slope::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9a2061;
+  }
+
+.search-ski-slope{
+    position: absolute;
+    left: 850px;
     width: 930px;
-    height: 120px;
-
+    height: 80px;
     background: #FDFDFD 0% 0% no-repeat padding-box;
-    border: 5px solid #047373;
-    place-self: end;
-    
+    border: 10px solid #047373;
+    text-decoration: none;
+    margin: 13px;
+    text-align: center;
+    font: normal normal bold 57px/76px Segoe UI;
+    letter-spacing: 2px;
+    color: #622975;
 }
 
-
-/*STR3:*/
-
-.container3{
-    width: 100vw;
-    height: 100vh;
-    background: transparent linear-gradient(180deg, #F1F7F7 0%, #047373 53%, #09F8F8 100%) 0% 0% no-repeat padding-box;
+.hamburger_icon{
+    font-size: 5em;
+    color:#561134;
+    top: 231px;
+    left: 1782px;
+    position: absolute;
+    width: 98px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #32344e;
+    border-radius: 27px;    
 }
 
-.logo3{
-    top: -569px;
-    left: -809px;
-
-
-}
-.search-bar2{
-    top: 38px;
-    left: 179px;
-    width: 1573px;
-    height: 163px;
-    
-    background: #025D5D 0% 0% no-repeat padding-box;
-    border: 5px solid #050F0F;
+.hamburger_icon>i.fas.fa-bars{
+    top: 5px;
+    left: 14px;
+    position: relative;
 }

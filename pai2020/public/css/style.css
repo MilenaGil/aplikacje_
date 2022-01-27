@@ -176,8 +176,12 @@ input{
     border-radius: 27px;    
 }
 
-.hamburger_icon>i.fas.fa-bars{
+.hamburger_icon>a>i.fas.fa-bars{
     top: 5px;
     left: 14px;
     position: relative;
 }
+
+.hamburger_icon>a:active {
+    color: #047373;
+   }

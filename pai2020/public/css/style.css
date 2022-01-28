@@ -91,7 +91,7 @@ input{
 }
 
 
-@media only screen and (max-device-width: 360px) {
+@media only screen and (max-device-width: 1440px) {
     .container {
         flex-direction: column;
     }
@@ -100,23 +100,47 @@ input{
         font-size: 36px;
     }
 
+    .logo{
+        top: 392px;
+        left: 357px;
+        width: 700px;
+        height: 700px;
+        text-align: center;
+        position: absolute;
+        border: 12px solid #109494;
+        border-radius: 85px;
+    }
+
     .login-container {
-        width: 80%;
-        height: 37%;
+        width: 81vw;
+        height: 52vh;
+        border: 12px solid #109494;
+        border-radius: 85px;
     }
 
 
-    form {
+    form.login {
         margin: 2em;
+        top: 35vh;
+        left: 16px;
+        position: absolute;
+    }
+
+    button{
+        width: 50%;
+        height: 3em;
+        font: normal normal 600 82px/67px Segoe UI;
     }
 
     input{
-        width: 75%;
+        width: 65%;
         text-align: center;
+        font: normal normal 600 98px/33px Segoe UI;
+
     }
     img {
-        height: 10em;
-        margin: 4em;
+        height: 15em;
+        margin: 2em;
     }
 }
 
@@ -235,4 +259,9 @@ input{
 .button4>a>i{
     top: 854px;
     left: 1373px;
+}
+
+
+@media only screen and (max-device-width: 1440px) {
+    
 }

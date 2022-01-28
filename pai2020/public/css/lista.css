@@ -81,3 +81,26 @@ input{
     top: 321.5px;
     left: 194px;
 }
+
+#i_1{
+    position: absolute;
+    top: 461px;
+    left: 72px;
+}
+
+button{
+    position: absolute;
+    top: 459px;
+    left: 75px;
+    text-decoration: none;
+    font: normal normal bold 67px/56px Segoe UI;
+    color: transparent;
+    background: transparent;
+    border: none;
+}
+
+button:focus{
+    color: black;
+}
+
+

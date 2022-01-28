@@ -1,0 +1,18 @@
+<svg id="Component_26_1" data-name="Component 26 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="95" viewBox="0 0 148 95">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4266d"/>
+      <stop offset="1" stop-color="#5a1337"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_61" data-name="Rectangle 61" stroke="#050f0f" stroke-width="5" fill="url(#linear-gradient)">
+    <rect width="148" height="95" stroke="none"/>
+    <rect x="2.5" y="2.5" width="143" height="90" fill="none"/>
+  </g>
+  <g id="Rectangle_74" data-name="Rectangle 74" transform="translate(42 18)" fill="#fff" stroke="#050f0f" stroke-width="5">
+    <rect width="64" height="60" stroke="none"/>
+    <rect x="2.5" y="2.5" width="59" height="55" fill="none"/>
+  </g>
+  <path id="Path_23" data-name="Path 23" d="M0,0,32,59.648" transform="translate(42 15.676)" fill="none" stroke="#050f0f" stroke-linecap="round" stroke-width="10"/>
+  <path id="Path_24" data-name="Path 24" d="M32.459,0,0,59.648" transform="translate(74 15.676)" fill="none" stroke="#050f0f" stroke-linecap="round" stroke-width="10"/>
+</svg>

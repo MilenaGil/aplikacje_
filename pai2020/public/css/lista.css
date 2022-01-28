@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+.container3 {
+    width: 100vw;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #F1F7F7 0%, #047373 53%, #09F8F8 100%) 0% 0% no-repeat padding-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar2{
+    position: absolute;
+    top: 38px;
+    left: 224px;
+    width: 1534px;
+    height: 143px;
+    background: #025D5D 0% 0% no-repeat padding-box;
+    border: 5px solid #050F0F;
+}
+
+.hamburger_icon{
+    font-size: 5em;
+    top: 63px;
+    left: 1789px;
+    position: absolute;
+    width: 98px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #32344e;
+    border-radius: 27px;    
+}
+
+.hamburger_icon>a>i.fas.fa-bars{
+    top: 5px;
+    left: 14px;
+    color:#561134;
+    position: relative;
+}
+
+.hamburger_icon>a:active {
+    color: #025d5d;
+}
+
+#l3{
+    position: absolute;
+    top: 69px;
+    left: 0px;
+    width: 293px;
+}
+
+input::placeholder { 
+    color:#FFFFFFB5;
+}
+
+
+input{
+    margin: 0.2em;
+    top: 57px;
+    left: 212px;
+    width: 1493px;
+    height: 106px;
+    text-align: left;
+    background: transparent;
+    font: normal normal normal 80px/106px Segoe UI;
+    letter-spacing: 0px;
+    color: white;
+    border: none;
+}
+
+#check_background{
+    position: absolute;
+    top: 321px;
+    left: 32px;
+}
+
+#nazwa_stoku{
+    position: absolute;
+    top: 321.5px;
+    left: 194px;
+}

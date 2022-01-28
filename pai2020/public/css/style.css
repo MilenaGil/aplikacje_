@@ -261,6 +261,7 @@ input{
 
 
 @media only screen and (max-device-width: 1440px) {
+
     .container2{        
         background: transparent url('../img/tlo2_ver2.svg') 0% 0% no-repeat padding-box;
         background-position-x: -1209px;

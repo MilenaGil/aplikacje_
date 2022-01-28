@@ -81,3 +81,26 @@ input{
     top: 321.5px;
     left: 194px;
 }
+
+@media only screen and (max-device-width: 1440px) {
+    .search-bar2{
+        width: 973px;
+    }
+    
+    .hamburger_icon{
+        left: 1266px;
+    }
+
+    #check_background{
+        width: 112px;
+    }
+
+    #nazwa_stoku{
+        width: 1249px;
+        left: 157px;
+    }
+
+    input{
+        width: 929px;
+    }
+}

@@ -122,7 +122,6 @@ button:focus{
     height: 60px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 5px solid #050F0F;
-
     text-align: center;
     font: normal normal normal 38px/53px Segoe UI;
     letter-spacing: 1px;
@@ -233,5 +232,28 @@ input{
 
     input{
         width: 929px;
+    }
+
+    .slope_list{
+        width: 1386px;
+        height: 2676px;
+    }
+
+    #i_1{
+        left: 55px;
+        top: 495px;
+    }
+
+    button{
+        top: 492px;
+        left: 57px;
+    }
+
+    #a_1{
+        top: 456px;
+        left: 138px;
+        width: 1242px;
+        font: normal normal normal 77px/116px Segoe UI;
+        height: 128px;
     }
 }

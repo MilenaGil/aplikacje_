@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+}
+
+.container4{
+    width: 100vw;
+    height: 100vh;
+    background: transparent conic-gradient(from 90deg at 50% 50%,
+     #FFFFFF 0.00%, #325D67 3.50%, #31E1E5 11.25%, #189685 19.40%,
+      #FEFFFF 19.40%, #234241 29.84%, #31E1E5 36.25%, #1A9294 39.98%,
+       #06AAAA 40.64%, #20D5B9 41.24%, #3E9688 44.66%, #119C9D 48.98%,
+        #FFFFFF 49.36%, #27C2C7 52.72%, #223938 54.35%, #0CB0C2 58.23%,
+         #3BEEEE 73.18%, #FFFFFF 74.36%, #08817E 84.29%, #295850 93.60%,
+          #24CBB1 95.91%, #134A41 100.00%) 0% 0% no-repeat padding-box;
+}
+
+#zdj_prof{
+    position: absolute;
+    top: 13px;
+    left: 1537px;
+}
+
+.logo4{
+    position: absolute;
+    top: 35px;
+    left: 38px;
+    width: 1278px;
+    height: 157px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #063432; 
+}
+
+.logo4>i{
+    position: relative;
+    top: -14px;
+    left: 558px;
+    width: 638px;
+    height: 133px;
+    text-align: center;
+    font: italic normal normal 100px/170px Segoe UI;
+    color: #073533;
+}
+
+#im4{
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    width: 391px;
+    height: 116px;
+}
+
+.hamburger_icon{
+    font-size: 5em;
+    color:#561134;
+    top: 64px;
+    left: 1373px;
+    position: absolute;
+    width: 98px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #32344e;
+    border-radius: 27px;    
+}
+
+.hamburger_icon>a>i.fas.fa-bars{
+    top: 5px;
+    left: 14px;
+    position: relative;
+}
+
+.hamburger_icon>a:active {
+    color: #047373;
+}

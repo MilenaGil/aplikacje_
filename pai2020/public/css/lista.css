@@ -103,4 +103,28 @@ button:focus{
     color: black;
 }
 
+.slope_list{
+    background: transparent;
+    border: 1px solid #707070;
+    position: relative;
+    left: 25px;
+    top: 314px;
+    width: 1814px;
+    height: 722px;
+}
 
+#a_1{
+    position: absolute;
+    text-decoration: none;
+    top: 455px;
+    left: 184px;
+    width: 1637px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #050F0F;
+
+    text-align: center;
+    font: normal normal normal 38px/53px Segoe UI;
+    letter-spacing: 1px;
+    color: #050F0F;
+}

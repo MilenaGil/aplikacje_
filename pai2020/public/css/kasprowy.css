@@ -51,7 +51,7 @@ i.fas.fa-bars.extraClass{
     left: 13px;
 }
 
-button{
+.button5>button{
     position: absolute;
     top: 28px;
     left: 228px;
@@ -62,7 +62,7 @@ button{
     border: none;
 }
 
-button:focus{
+.button5>:focus{
     color: transparent;
 }
 
@@ -72,4 +72,46 @@ button:focus{
     left: 206px;
     width: 120px;
     height: 88px;
+}
+
+#o2{
+    position: absolute;
+    top: 142px;
+    left: 1219px;
+    
+}
+
+.buttons5>button{
+    background: transparent;
+    border: none;
+}
+
+#bu1{
+    position: absolute;
+    top: 566px;
+    left: 31px;
+}
+
+#bu2{
+    position: absolute;
+    top: 1025px;
+    left: 47px;
+}
+
+#bu3{
+    position: absolute;
+    top: 1025px;
+    left: 735px;
+}
+
+#bu4{
+    position: absolute;
+    top: 1025px;
+    left: 955px;
+}
+
+#bu5{
+    position: absolute;
+    top: 960px;
+    left: 517px;
 }

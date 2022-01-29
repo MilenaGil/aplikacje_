@@ -78,7 +78,6 @@ i.fas.fa-bars.extraClass{
     position: absolute;
     top: 142px;
     left: 1219px;
-    
 }
 
 .buttons5>button{
@@ -113,5 +112,61 @@ i.fas.fa-bars.extraClass{
 #bu5{
     position: absolute;
     top: 960px;
-    left: 517px;
+    left: 525px;
+}
+
+#o3{
+    position: absolute;
+    top: 132px;
+    left: 31px;
+}
+
+#o4{
+    position: absolute;
+    top: 631px;
+    left: 31px;
+}
+
+#n1{
+    position: absolute;
+    top: 132px;
+    left: 527px;
+}
+
+.notka{
+    text-align: left;
+    font: italic normal normal 20px/31px Segoe UI;
+    color: #781949;
+}
+
+#trasa{
+    position: absolute;
+    top: 200px;
+    left: 687px;
+    width: 453px;
+    height: 93px;    
+}
+
+#dane1{
+    position: absolute;
+    top: 282px;
+    left: 682px;
+}
+
+#kolej{
+    list-style: none;
+    position: absolute;
+    top: 422px;
+    left: 652px;
+    width: 391px;
+    height: 186px;   
+}
+
+#ciekawostki{
+    list-style: none;
+    position: absolute;
+    top: 591px;
+    left: 650px;
+    width: 520px;
+    height: 372px;
 }

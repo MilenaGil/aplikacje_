@@ -17,8 +17,8 @@ body {
 
 #zdj_prof{
     position: absolute;
-    top: 13px;
-    left: 1537px;
+    top: 37px;
+    left: 1508px;
 }
 
 .logo4{
@@ -50,11 +50,14 @@ body {
     height: 116px;
 }
 
+i.fas.fa-bars.extraClass{
+    color: #561134;
+}
+
 .hamburger_icon{
     font-size: 5em;
-    color:#561134;
     top: 64px;
-    left: 1373px;
+    left: 1345px;
     position: absolute;
     width: 98px;
     height: 96px;
@@ -71,4 +74,51 @@ body {
 
 .hamburger_icon>a:active {
     color: #047373;
+}
+
+#im5{
+    position: relative;
+    top: 221px;
+    left: 38px;
+    width: 1413px;
+    height: 121px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #063432;
+}
+
+button{
+    background: none;
+    border: none;  
+}
+
+#im6{
+    position: absolute;
+    top: 923px;
+    left: 51px;
+    width: 594px;
+    height: 121px; 
+}
+
+#im7{
+    position: absolute;
+    top: 378px;
+    left: 865px;
+    width: 594px;
+    height: 121px; 
+}
+
+#im8{
+    position: absolute;
+    top: 363px;
+    left: 38px;
+    width: 813px;
+    height: 543px;
+}
+
+#im9{
+    position: absolute;
+    top: 522px;
+    left: 660px;
+    width: 800px;
+    height: 532px;
 }

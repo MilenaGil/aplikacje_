@@ -1,11 +1,6 @@
 
 body {
     margin: 0;
-}
-
-.container4{
-    width: 100vw;
-    height: 100vh;
     background: transparent conic-gradient(from 90deg at 50% 50%,
      #FFFFFF 0.00%, #325D67 3.50%, #31E1E5 11.25%, #189685 19.40%,
       #FEFFFF 19.40%, #234241 29.84%, #31E1E5 36.25%, #1A9294 39.98%,
@@ -13,7 +8,13 @@ body {
         #FFFFFF 49.36%, #27C2C7 52.72%, #223938 54.35%, #0CB0C2 58.23%,
          #3BEEEE 73.18%, #FFFFFF 74.36%, #08817E 84.29%, #295850 93.60%,
           #24CBB1 95.91%, #134A41 100.00%) 0% 0% no-repeat padding-box;
+
 }
+
+.container4{
+    width: 100vw;
+    height: 100vh; 
+    }
 
 #zdj_prof{
     position: absolute;
@@ -201,3 +202,110 @@ button{
     border: 1px solid #319FA6;
 }
 
+@media only screen and (max-device-width: 1440px) {
+
+    body{
+        background-repeat: repeat;
+    }
+    .container4{
+        background-repeat: repeat;
+    }
+
+    .scroll{
+        overflow: scroll;
+    }
+
+    #zdj_prof{
+        top: 376px;
+        left: 13px;
+        width: 1409px;
+        height: 1455px;
+    }
+    
+    .logo4{
+        width: 1092px;
+        height: 275px;
+    }
+    
+    .logo4>i{
+        top: 45px;
+        left: 489px;
+        font: italic normal bold 81px/170px Segoe UI;
+    }
+    
+    #im4{
+        top: 64px;
+        left: 26px;
+    }
+    
+    .hamburger_icon{
+        font-size: 10em;
+        top: 77px;
+        left: 1196px;
+        width: 168px;
+        height: 173px;
+        border: 11px solid #32344e;
+    }
+    
+    #im5{
+        display:none;
+    }
+    
+    #im6{
+        display:none;
+    }
+    
+    #im7{
+        display:none;
+    }
+    
+    #im8{
+        display:none;
+    }
+    
+    #im9{
+        display:none;
+    }
+    
+    #im10{
+        position: relative;
+        top: 1500px;
+        left: 45px;
+        width: 1337px;
+        height: 1053px;
+    }
+    
+    #im11{
+        position: relative;
+        top: 1178px;
+        left: 45px;
+        width: 1355px;
+        height: 1608px;
+    }
+    
+    #narty_i{
+        display:none;
+    }
+    
+    #snowboard_i{
+        display:none;
+    }
+    
+    /*wstepny 0% progres*/
+    #narty_pb0{
+        display:none;
+    }
+    
+    #snowboard_pb0{
+        display:none;
+    }
+    
+    /*progres wlasciwy*/
+    #narty_pb{
+        display:none;
+    }
+    
+    #snowboard_pb{
+        display:none;
+    }
+}

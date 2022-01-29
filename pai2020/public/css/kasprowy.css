@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background: transparent linear-gradient(180deg, #F1F7F7 0%, #047373 53%, #09F8F8 100%) 0% 0% no-repeat padding-box;;
+}
+
+.container5{
+    width: 100vw;
+    height: 100vh; 
+}
+
+i.fas.fa-bars.extraClass{
+    color: #561134;
+}
+
+.hamburger_icon{
+    font-size: 5em;
+    top: 18px;
+    left: 1766px;
+    position: absolute;
+    width: 98px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #32344e;
+    border-radius: 27px;    
+}
+
+.hamburger_icon>a>i.fas.fa-bars{
+    top: 5px;
+    left: 14px;
+    position: relative;
+}
+
+.hamburger_icon>a:active {
+    color: #047373;
+}
+
+#ZKW{
+    position: absolute;
+    top: -13px;
+    left: 346px;
+    width: 1394px;
+    height: 154px;
+    text-align: center;
+    font: italic normal normal 116px/154px Segoe UI;
+    color: #073533;
+}
+
+#o1{
+    position: absolute;
+    top: 38px;
+    left: 13px;
+}
+
+button{
+    position: absolute;
+    top: 28px;
+    left: 228px;
+    text-decoration: none;
+    font: normal normal bold 98px/73px Segoe UI;
+    color: black;
+    background: transparent;
+    border: none;
+}
+
+button:focus{
+    color: transparent;
+}
+
+#un1{
+    position: absolute;
+    top: 28px;
+    left: 206px;
+    width: 120px;
+    height: 88px;
+}

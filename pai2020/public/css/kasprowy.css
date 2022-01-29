@@ -214,42 +214,42 @@ i.fas.fa-bars.extraClass{
     }
     
     #o2{
-        top: 591px;
+        top: 2191px;
         left: 49px;
         width: 1348px;
         height: 1987px;
     }
     
     #bu1{
-        top: 1605px;
+        top: 3205px;
         left: 49px;
         width: 1348px;
         height: 1987px;
     }
     
     #bu2{
-        top: 1743px;
+        top: 3343px;
         left: 49px;
         width: 1348px;
         height: 1987px;
     }
     
     #bu3{
-        top: 1884px;
+        top: 3484px;
         left: 51px;
         width: 590px;
         height: 2014px;
     }
     
     #bu4{
-        top: 1897px;
+        top: 3497px;
         left: 673px;
         width: 718px;
         height: 1987px;
     }
     
     #bu5{
-        top: 2050px;
+        top: 3650px;
         left: 49px;
         width: 1348px;
         height: 1987px;
@@ -264,10 +264,37 @@ i.fas.fa-bars.extraClass{
     }
     
     #n1{
-        display: none;
+        top: 451px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
     }
     
     .notka{
-        display: none;
+        font: italic normal normal 42px/53px Segoe UI;
+    }
+
+    #trasa{
+        top: 792px;
+        left: 394px;
+        width: 977px;
+    }
+    
+    #dane1{
+        top: 946px;
+        left: 394px;
+        width: 790px;
+    }
+    
+    #kolej{
+        top: 1230px;
+        left: 348px;
+        width: 977px;
+    }
+    
+    #ciekawostki{
+        top: 1560px;
+        left: 348px;
+        width: 977px;
     }
 }

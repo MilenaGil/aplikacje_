@@ -207,13 +207,6 @@ button{
     body{
         background-repeat: repeat;
     }
-    .container4{
-        background-repeat: repeat;
-    }
-
-    .scroll{
-        overflow: scroll;
-    }
 
     #zdj_prof{
         top: 376px;

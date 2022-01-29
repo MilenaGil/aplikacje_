@@ -170,3 +170,104 @@ i.fas.fa-bars.extraClass{
     width: 520px;
     height: 372px;
 }
+
+@media only screen and (max-device-width: 1440px) {
+
+    body{
+        background: transparent linear-gradient(180deg, #EFF6F6 0%, #08D1D1 16%, #047373 53%, #08D1D1 84%, #EFF6F6 100%) 0% 0% no-repeat padding-box;
+        background-repeat: repeat;
+    }
+
+    .hamburger_icon{
+        font-size: 10em;
+        top: 52px;
+        left: 1178px;
+        width: 168px;
+        height: 173px;
+        border: 11px solid #32344e;
+    }
+    
+    #ZKW{
+        top: 291px;
+        left: 218px;
+        width: 1204px;
+    }
+    
+    #o1{
+        top: -30px;
+        left: -26px;
+        width: 1070px;
+        height: 395px; 
+    }
+    
+    .button5>button{
+        top: 354px;
+        left: 103px;
+        font: normal normal bold 154px/73px Segoe UI;
+    }
+    
+    #un1{
+        top: 319px;
+        left: 79px;
+        width: 160px;
+        height: 160px;
+    }
+    
+    #o2{
+        top: 591px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #bu1{
+        top: 1605px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #bu2{
+        top: 1743px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #bu3{
+        top: 1884px;
+        left: 51px;
+        width: 590px;
+        height: 2014px;
+    }
+    
+    #bu4{
+        top: 1897px;
+        left: 673px;
+        width: 718px;
+        height: 1987px;
+    }
+    
+    #bu5{
+        top: 2050px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #o3{
+        display: none;
+    }
+    
+    #o4{
+        display: none;
+    }
+    
+    #n1{
+        display: none;
+    }
+    
+    .notka{
+        display: none;
+    }
+}

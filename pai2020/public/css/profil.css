@@ -284,11 +284,20 @@ button{
     }
     
     #narty_i{
-        display:none;
+        position: relative;
+        top: 0px;
+        left: -17px;
+        font: italic normal normal 98px/610px Segoe UI; 
     }
     
     #snowboard_i{
-        display:none;
+        width: 1012px;
+        height: 131px;
+        top: 3371px;
+        left: 197px;
+        font: italic normal normal 76px/629px Segoe UI;
+        font-size: 100px;
+        
     }
     
     /*wstepny 0% progres*/

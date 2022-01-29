@@ -122,3 +122,82 @@ button{
     width: 800px;
     height: 532px;
 }
+
+#im10{
+    position: absolute;
+    top: 473px;
+    left: 1503px;
+    width: 366px;
+    height: 90px;
+}
+
+#im11{
+    position: absolute;
+    top: 608px;
+    left: 1503px;
+    width: 366px;
+    height: 439px;
+}
+
+.skille-tekst{
+    text-align: center;
+    font: italic normal normal 30px/40px Segoe UI;
+    color: #073533;
+}
+
+#narty_i{
+    position: absolute;
+    top: 788px;
+    left: 1526px;
+    width: 310px;
+    height: 40px;
+}
+
+#snowboard_i{
+    position: absolute;
+    top: 978px;
+    left: 1555px;
+    width: 252px;
+    height: 40px;
+}
+
+/*wstepny 0% progres*/
+#narty_pb0{
+    position: absolute;
+    top: 760px;
+    left: 1528px;
+    width: 311px;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+
+#snowboard_pb0{
+    position: absolute;
+    top: 950px;
+    left: 1528px;
+    width: 311px;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+
+/*progres wlasciwy*/
+#narty_pb{
+    position: absolute;
+    top: 760px;
+    left: 1528px;
+    width: 196px;
+    background: #073533 0% 0% no-repeat padding-box;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+
+#snowboard_pb{
+    position: absolute;
+    top: 950px;
+    left: 1528px;
+    width: 0px;
+    background: transparent;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+

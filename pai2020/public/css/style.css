@@ -147,7 +147,7 @@ input{
 .container2{
     width: 100vw;
     height: 100vh;
-    background: transparent url('public/img/tlo2.svg') 0% 0% no-repeat padding-box;
+    background: transparent url('/public/img/tlo2.svg') 0% 0% no-repeat padding-box;
 }
 
 
@@ -263,7 +263,7 @@ input{
 @media only screen and (max-device-width: 1440px) {
 
     .container2{        
-        background: transparent url('public/img/tlo2_ver2.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('/public/img/tlo2_ver2.svg') 0% 0% no-repeat padding-box;
         background-position-x: -1209px;
         background-position-y: -35px;
     }

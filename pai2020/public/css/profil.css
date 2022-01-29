@@ -248,23 +248,43 @@ button{
     }
     
     #im5{
-        display:none;
+        position: absolute;
+        top: 3917px;
+        left: 53px;
+        width: 1327px;
+        height: 310px;
     }
     
     #im6{
-        display:none;
+        position: absolute;
+        top: 6143px;
+        left: 53px;
+        width: 1343px;
+        height: 310px;
     }
     
     #im7{
-        display:none;
+        position: absolute;
+        top: 6452px;
+        left: 53px;
+        width: 1343px;
+        height: 310px;
     }
     
     #im8{
-        display:none;
+        position: absolute;
+        top: 4285px;
+        left: 34px;
+        width: 1374px;
+        height: 893px;
     }
     
     #im9{
-        display:none;
+        position: absolute;
+        top: 5226px;
+        left: 34px;
+        width: 1374px;
+        height: 893px;
     }
     
     #im10{
@@ -302,19 +322,31 @@ button{
     
     /*wstepny 0% progres*/
     #narty_pb0{
-        display:none;
+        left: 139px;
+        top: 2823px;
+        width: 1152px;
+        height: 62px;
     }
     
     #snowboard_pb0{
-        display:none;
+        left: 139px;
+        top: 3515px;
+        width: 1152px;
+        height: 62px;
     }
     
     /*progres wlasciwy*/
     #narty_pb{
-        display:none;
+        left: 139px;
+        top: 2823px;
+        width: 726px;
+        height: 62px;
     }
     
     #snowboard_pb{
-        display:none;
+        left: 139px;
+        top: 3515px;
+        width: 1152px;
+        height: 62px;
     }
 }

@@ -59,6 +59,11 @@ body {
 
 }
 
+.messages{
+    color: #09f8f8;
+    font: normal normal 600 50px/67px Segoe UI;
+}
+
 button{
     
 
@@ -101,7 +106,7 @@ input{
     }
 
     .logo{
-        top: 392px;
+        top: 260px;
         left: 357px;
         width: 700px;
         height: 700px;
@@ -124,6 +129,10 @@ input{
         top: 35vh;
         left: 16px;
         position: absolute;
+    }
+
+    .messages{
+        font: normal normal 600 67px/67px Segoe UI;
     }
 
     button{

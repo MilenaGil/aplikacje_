@@ -5,12 +5,14 @@ require 'Routing.php';
 $path = trim($_SERVER['REQUEST_URI'], '/');
 $path = parse_url( $path, PHP_URL_PATH);
 
-Routing::get('logo', 'DefaultController');
-Routing::get('rejestracja', 'DefaultController');
-Routing::get('menu', 'DefaultController');
-Routing::get('pusta_lista', 'DefaultController');
-Routing::get('lista', 'DefaultController');
-Routing::get('kasprowy', 'DefaultController');
-Routing::get('profil', 'DefaultController');
+Router::get('', 'DefaultController');
+Router::get('rejestracja', 'DefaultController');
+Router::get('menu', 'DefaultController');
+Router::get('pusta_lista', 'DefaultController');
+Router::get('lista', 'DefaultController');
+Router::get('kasprowy', 'DefaultController');
+Router::get('profil', 'DefaultController');
 
-Routing::run($path);
+Router::post('login', 'SecurityController');
+
+Router::run($path);

@@ -4,9 +4,9 @@ require_once 'AppController.php';
 
 class DefaultController extends AppController{
 
-    public function logo()
+    public function index()
     {
-        $this->render('logo');
+        $this->render('login');
     }
 
     public function rejestracja()

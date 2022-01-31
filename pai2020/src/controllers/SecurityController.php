@@ -7,6 +7,10 @@ class SecurityController extends AppController {
     public function login(){
         $user = new User('m@g.pl', 'gil', 'Milena', 'Gil');
 
+        if (!$this->isPost()) {
+            return $this->render('login');
+        }
+
         $email = $_POST['email'];
         $password = $_POST['password'];
 
@@ -18,6 +22,7 @@ class SecurityController extends AppController {
             return $this->render('login', ['messages' => ['Złe hasło!']]);
         }
 
-        return $this->render('menu');
+        $url = "http://$_SERVER[HTTP_HOST]";
+        header("Location: {$url}/menu");
     }
 }

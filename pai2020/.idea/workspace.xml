@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/Routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/kasprowy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/kasprowy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/lista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/logo.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/profil.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/pusta_lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/pusta_lista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/rejestracja.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/rejestracja.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/AppController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +40,7 @@
       <updated>1643503371655</updated>
       <workItem from="1643503374619" duration="311000" />
       <workItem from="1643504315397" duration="2838000" />
-      <workItem from="1643567642927" duration="11536000" />
+      <workItem from="1643567642927" duration="15188000" />
     </task>
     <servers />
   </component>

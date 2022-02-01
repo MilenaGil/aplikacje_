@@ -28,6 +28,10 @@
             <i id="tx1">Kasprowy Wierch</i>
             <img id="zdj1"src="public/img/zdj-gor1.svg">
         </div>
+        <div id="tl2">
+            <i id="tx2"><?=$slope->getTitle()?></i>
+            <img id="zdj2"src="public/img/<?=$slope->getImage()?>">
+        </div>
     </div>
 </div>
 </body>

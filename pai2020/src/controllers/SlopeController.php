@@ -1,7 +1,7 @@
 <?php
 
 require_once 'AppController.php';
-require_once __DIR__ . '/../models/top.php';
+require_once __DIR__ . '/../models/Slope.php';
 
 class SlopeController extends AppController
 {
@@ -19,11 +19,11 @@ class SlopeController extends AppController
                 $_FILES['file']['tmp_name'],
                 dirname(__DIR__) . self::UPLOAD_DIRECTORY . $_FILES['file']['name']
             );
-            /*
+
             // TODO create new project object and save it in database
-            $project = new Project($_POST['title'], $_POST['description'], $_FILES['file']['name']);
-            */
-            return $this->render('top', ['messages' => $this->message]);
+            $slope = new Slope($_POST['title'], $_POST['description'], $_FILES['file']['name']);
+
+            return $this->render('top', ['messages' => $this->message, 'slope'->$slope]);
 
         }
         return $this->render('add', ['messages' => $this->message]);

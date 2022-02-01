@@ -23,8 +23,7 @@
             </a>
         </div>
     </section>
-    <section>
-        <h1>UPLOAD</h1>
+    <section class="slope-form">
         <form action="addSlope" method="POST" ENCTYPE="multipart/form-data">
             <div class="messages">
                 <?php
@@ -35,11 +34,12 @@
                 }
                 ?>
             </div>
-            <input name="title" type="text" placeholder="title">
-            <textarea name="description" rows="5" placeholder="description"></textarea>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <input id="inp1" name="title" type="text" placeholder="tytuł">
+            <textarea name="description" rows="5" placeholder="opis"></textarea>
 
-            <input type="file" name="file"/><br/>
-            <button type="submit">send</button>
+            <input id="inp2" type="file" name="file"/><br/>
+            <button id="subm" type="submit">Dodaj stok</button>
         </form>
     </section>
 </div>

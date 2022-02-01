@@ -81,7 +81,7 @@ input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
   }
 
-input{
+input, textarea{
 
     background-color: transparent;
     border: none;
@@ -409,6 +409,7 @@ input{
     width: 529px;
     height: 462px;
 }
+
 #tl1{
     position: absolute;
     top: 298px;
@@ -430,4 +431,37 @@ input{
     font: italic normal normal 60px/80px Segoe UI;
     color: #F5F5F5;
 }
+
+textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+}
+
+textarea{
+    width: 90%;
+}
+
+section.slope-form {
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 292px;
+    left: 379px;
+    width: 1162px;
+    height: 671px;
+    background: transparent linear-gradient(180deg, #CE5FA2 0%, #9A1F5E 53%, #4F1030 100%) 0% 0% no-repeat padding-box;
+    border: 3px solid #561134;
+}
+
+.slope-form>form {
+    display: flex;
+    flex-direction: column;
+}
+#inp1, #inp2{
+    width: 90%;
+}
+
+#subm{
+    align-self: center;
 }

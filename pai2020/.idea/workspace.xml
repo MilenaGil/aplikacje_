@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/SlopeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/Routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/dodaj_stok.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/SlopeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SlopeController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <workItem from="1643567642927" duration="15188000" />
       <workItem from="1643677638800" duration="2399000" />
       <workItem from="1643721601164" duration="1989000" />
-      <workItem from="1643723870545" duration="1938000" />
+      <workItem from="1643723870545" duration="7685000" />
     </task>
     <servers />
   </component>

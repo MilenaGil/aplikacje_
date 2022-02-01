@@ -12,6 +12,7 @@ Router::get('pusta_lista', 'DefaultController');
 Router::get('lista', 'DefaultController');
 Router::get('kasprowy', 'DefaultController');
 Router::get('profil', 'DefaultController');
+Router::get('top', 'DefaultController');
 
 Router::post('login', 'SecurityController');
 

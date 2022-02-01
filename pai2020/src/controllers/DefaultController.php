@@ -38,4 +38,9 @@ class DefaultController extends AppController{
     {
         $this->render('profil');
     }
+
+    public function top()
+    {
+        $this->render('top');
+    }
 }

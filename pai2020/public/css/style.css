@@ -141,7 +141,7 @@ input{
         font: normal normal 600 82px/67px Segoe UI;
     }
 
-    
+
     input{
         width: 65%;
         text-align: center;
@@ -366,4 +366,68 @@ input{
         top: 2583px;
         left: 662px;
     }
+}
+
+.hamburger_icon2{
+    font-size: 5em;
+    color:#561134;
+    top: 42px;
+    left: 1747px;
+    position: absolute;
+    width: 98px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #32344e;
+    border-radius: 27px;
+}
+
+.hamburger_icon2>a>i.fas.fa-bars{
+    top: 5px;
+    left: 14px;
+    position: relative;
+}
+
+.hamburger_icon2>a:active {
+    color: #047373;
+}
+
+.naj-st{
+    position: absolute;
+    top: 10px;
+    left: 256px;
+    width: 1394px;
+    height: 154px;
+    text-align: center;
+    font: italic normal normal 116px/154px Segoe UI;
+    color: #07bbbb;
+}
+
+#zdj1{
+    position: relative;
+    top: -4px;
+    left: 11px;
+    width: 529px;
+    height: 462px;
+}
+#tl1{
+    position: absolute;
+    top: 298px;
+    left: 63px;
+    width: 553px;
+    height: 662px;
+    background: transparent linear-gradient(180deg, #CE5FA2 0%, #9A1F5E 53%, #4F1030 100%) 0% 0% no-repeat padding-box;
+    border: 3px solid #561134;
+
+}
+
+#tx1{
+    top: 491px;
+    position: absolute;
+    left: 17px;
+    width: 506px;
+    height: 80px;
+    text-align: center;
+    font: italic normal normal 60px/80px Segoe UI;
+    color: #F5F5F5;
+}
 }

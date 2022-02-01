@@ -43,4 +43,9 @@ class DefaultController extends AppController{
     {
         $this->render('top');
     }
+
+    public function add()
+    {
+        $this->render('add');
+    }
 }

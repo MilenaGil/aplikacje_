@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docker/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="24OZ0JnnforXFIlIIR2Kb3rSeb1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +64,7 @@
       <workItem from="1643756774489" duration="10200000" />
       <workItem from="1643812952794" duration="8550000" />
       <workItem from="1643823966186" duration="146000" />
-      <workItem from="1643825412023" duration="4145000" />
+      <workItem from="1643825412023" duration="5063000" />
     </task>
     <servers />
   </component>

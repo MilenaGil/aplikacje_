@@ -446,7 +446,7 @@ section.slope-form {
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    top: 292px;
+    top: 302px;
     left: 379px;
     width: 1162px;
     height: 671px;
@@ -467,4 +467,54 @@ section.slope-form {
 
 #subm{
     align-self: center;
+}
+
+@media only screen and (max-device-width: 1440px) {
+    .slope-form>form {
+        top: 44px;
+        height: 4000px
+    }
+
+    section.slope-form{
+        top: 888px;
+        left: 72px;
+        width: 1281px;
+        height: 1721px;
+    }
+
+    .naj-st {
+        top: 325px;
+        left: -140px;
+    }
+
+
+    .hamburger_icon2>a>i.fas.fa-bars{
+
+        top: 14px;
+        left: 22px;
+
+    }
+
+    .hamburger_icon2{
+
+        top: 335px;
+        left: 1182px;
+        width: 179px;
+        height: 172px;
+    }
+
+    #inp1, #inp2{
+        text-align: left;
+        width: 84%;
+    }
+
+    textarea {
+        position: relative;
+        left: 0px;
+        height: 374px;
+        text-align: left;
+        width: 84%;
+        font: normal normal 600 98px/102px Segoe UI;
+    }
+
 }

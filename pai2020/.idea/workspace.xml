@@ -29,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -58,7 +59,7 @@
       <workItem from="1643721601164" duration="1989000" />
       <workItem from="1643723870545" duration="9296000" />
       <workItem from="1643756774489" duration="10200000" />
-      <workItem from="1643812952794" duration="3336000" />
+      <workItem from="1643812952794" duration="8550000" />
     </task>
     <servers />
   </component>

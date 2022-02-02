@@ -23,7 +23,7 @@ class SlopeController extends AppController
             // TODO create new project object and save it in database
             $slope = new Slope($_POST['title'], $_POST['description'], $_FILES['file']['name']);
 
-            return $this->render('top', ['messages' => $this->message, 'slope'->$slope]);
+            return $this->render('szukaj', ['messages' => $this->message, 'slope'=>$slope]);
 
         }
         return $this->render('add', ['messages' => $this->message]);

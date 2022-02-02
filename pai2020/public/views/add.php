@@ -34,7 +34,7 @@
                 }
                 ?>
             </div>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
             <input id="inp1" name="title" type="text" placeholder="tytuł">
             <textarea name="description" rows="5" placeholder="opis"></textarea>
 

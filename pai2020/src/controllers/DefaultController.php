@@ -39,9 +39,9 @@ class DefaultController extends AppController{
         $this->render('profil');
     }
 
-    public function top()
+    public function szukaj()
     {
-        $this->render('top');
+        $this->render('szukaj');
     }
 
     public function add()

@@ -455,6 +455,9 @@ section.slope-form {
 }
 
 .slope-form>form {
+    position: absolute;
+    top: -24px;
+    height: 1042px;
     display: flex;
     flex-direction: column;
 }

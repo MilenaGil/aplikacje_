@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/aplikacje_.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +59,7 @@
       <workItem from="1643756774489" duration="10200000" />
       <workItem from="1643812952794" duration="8550000" />
       <workItem from="1643823966186" duration="146000" />
-      <workItem from="1643825412023" duration="469000" />
+      <workItem from="1643825412023" duration="780000" />
     </task>
     <servers />
   </component>

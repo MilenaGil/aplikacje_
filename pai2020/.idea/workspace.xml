@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/rejestracja.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/rejestracja.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/rejestracja.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/rejestracja.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <workItem from="1643893747032" duration="467000" />
       <workItem from="1643894233904" duration="3910000" />
       <workItem from="1643898267483" duration="52000" />
-      <workItem from="1643905834042" duration="4916000" />
+      <workItem from="1643905834042" duration="6746000" />
     </task>
     <servers />
   </component>

@@ -82,7 +82,7 @@ input{
     border: none;
     border-bottom: 3px solid #FFFFFF;
     text-align: left;
-    font: normal normal 600 50px/67px Segoe UI;
+    font: normal normal 600 38px/31px Segoe UI;
     color: #FFFFFF;
     padding: 0.5em;
     margin: 0.8em;
@@ -135,7 +135,7 @@ input{
     input{
         width: 65%;
         text-align: center;
-        font: normal normal 600 66px/19px Segoe UI;
+        font: normal normal 600 58px/10px Segoe UI;
 
     }
     #im {

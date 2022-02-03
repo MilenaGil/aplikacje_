@@ -12,6 +12,7 @@
             <form class="reg">
                 <input name="imie" type="text" placeholder="imie">
                 <input name="nazwisko" type="text" placeholder="nazwisko">
+                <input name="nick" type="text" placeholder="nick">
                 <input name="email" type="text" placeholder="email@email.com">
                 <input name="hasło" type="password" placeholder="hasło">
                 <input name="powtórz hasło" type="password" placeholder="powtórz hasło">

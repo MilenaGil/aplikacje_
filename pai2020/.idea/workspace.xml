@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/repository/SlopeRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +46,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/repository" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\OneDrive\Dokumenty\GitHub\aplikacje_\pai2020\src\repository" />
       <recent name="C:\Users\dell\OneDrive\Dokumenty\GitHub\aplikacje_\pai2020\src\controllers" />
       <recent name="C:\Users\dell\OneDrive\Dokumenty\GitHub\aplikacje_\pai2020\public\views" />
     </key>
@@ -76,7 +78,7 @@
       <workItem from="1643831148242" duration="1424000" />
       <workItem from="1643885506396" duration="6990000" />
       <workItem from="1643893747032" duration="467000" />
-      <workItem from="1643894233904" duration="169000" />
+      <workItem from="1643894233904" duration="2075000" />
     </task>
     <servers />
   </component>

@@ -44,4 +44,26 @@ class SlopeRepository extends Repository
             $slope->getImage(),
         ]);
     }
+
+    public function getSlopes(): array
+    {
+        $result = [];
+
+        $stmt = $this->database->connect()->prepare('
+            SELECT * FROM slopes;
+        ');
+        $stmt->execute();
+        $slopes = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        foreach ($slopes as $slope) {
+            $result[] = new Slope(
+                $slope['title'],
+                $slope['description'],
+                $slope['image']
+            );
+        }
+
+        return $result;
+    }
+
 }

@@ -127,13 +127,6 @@ section {
 
 @media only screen and (max-device-width: 1440px) {
 
-    .container6{
-        background: transparent url('/public/img/tlo2_ver2.svg') 0% 0% no-repeat padding-box;
-        background-position-x: -1209px;
-        background-position-y: -35px;
-    }
-
-
     .header1{
         border: 28px solid #047373;
     }

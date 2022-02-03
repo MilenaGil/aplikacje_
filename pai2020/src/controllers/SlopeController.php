@@ -20,6 +20,13 @@ class SlopeController extends AppController
         $this->slopeRepository = new slopeRepository();
     }
 
+    public function szukaj()
+    {
+        $slopes = $this->slopeRepository->getSlopes();
+        $this->render('szukaj', ['slopes' => $slopes]);
+    }
+
+
     public function addSlope()
     {
         if ($this->isPost() && is_uploaded_file($_FILES['file']['tmp_name']) && $this->validate($_FILES['file'])) {
@@ -32,7 +39,10 @@ class SlopeController extends AppController
             $slope = new Slope($_POST['title'], $_POST['description'], $_FILES['file']['name']);
             $this->slopeRepository->addSlope($slope);
 
-            return $this->render('szukaj', ['messages' => $this->message, 'slope'=>$slope]);
+            return $this->render('szukaj', [
+                'messages' => $this->message,
+                'slopes' => $this->slopeRepository->getSlopes()
+            ]);
 
         }
         return $this->render('add', ['messages' => $this->message]);

@@ -24,20 +24,15 @@
         </div>
     </div>
     <section class="slopes">
-        <div>
-            <img src="public/img/zdj-gor1.svg">
-            <div>
-                <h2>Kasprowy</h2>
-                <p>Góra w Tatrach, Zakopane</p>
+        <?php foreach($slopes as $slope): ?>
+            <div id="slope-1">
+                <img src="public/uploads/<?= $slope->getImage(); ?>">
+                <div>
+                    <h2><?= $slope->getTitle(); ?></h2>
+                    <p><?= $slope->getDescription(); ?></p>
+                </div>
             </div>
-        </div>
-        <div>
-            <img src="public/uploads/<?=$slope->getImage()?>">
-            <div>
-                <h2><?=$slope->getTitle()?></h2>
-                <p><?=$slope->getDescription()?></p>
-            </div>
-        </div>
+        <?php endforeach; ?>
     </section>
 </div>
 </body>

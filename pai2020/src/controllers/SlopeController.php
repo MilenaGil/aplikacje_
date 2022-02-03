@@ -2,6 +2,7 @@
 
 require_once 'AppController.php';
 require_once __DIR__ . '/../models/Slope.php';
+require_once __DIR__.'/../repository/SlopeRepository.php';
 
 class SlopeController extends AppController
 {
@@ -11,6 +12,13 @@ class SlopeController extends AppController
     const UPLOAD_DIRECTORY = '/../public/uploads/';
 
     private $messages = [];
+    private $slopeRepository;
+
+    public function __construct()
+    {
+        parent::__construct();
+        $this->slopeRepository = new slopeRepository();
+    }
 
     public function addSlope()
     {
@@ -22,6 +30,7 @@ class SlopeController extends AppController
 
             // TODO create new project object and save it in database
             $slope = new Slope($_POST['title'], $_POST['description'], $_FILES['file']['name']);
+            $this->slopeRepository->addSlope($slope);
 
             return $this->render('szukaj', ['messages' => $this->message, 'slope'=>$slope]);
 

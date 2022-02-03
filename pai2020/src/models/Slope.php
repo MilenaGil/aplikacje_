@@ -32,12 +32,12 @@ class Slope {
         $this->description = $description;
     }
 
-    public function getImage(): string
+    public function getImage()
     {
         return $this->image;
     }
 
-    public function setImage(string $image)
+    public function setImage($image)
     {
         $this->image = $image;
     }

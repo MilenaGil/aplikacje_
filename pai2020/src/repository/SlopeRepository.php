@@ -26,4 +26,22 @@ class SlopeRepository extends Repository
             $slope['image']
         );
     }
+
+    public function addSlope(Slope $slope): void
+    {
+        $date = new DateTime();
+        $stmt = $this->database->connect()->prepare('
+            INSERT INTO slopes (title, description, image)
+            VALUES (?, ?, ?)
+        ');
+
+        //TODO you should get this value from logged user session
+        $assignedById = 1;
+
+        $stmt->execute([
+            $slope->getTitle(),
+            $slope->getDescription(),
+            $slope->getImage(),
+        ]);
+    }
 }

@@ -108,7 +108,7 @@ section {
     height: 50%;
     color: white;
     text-align: center;
-    font: italic normal normal 46px/53px Segoe UI;
+    font: italic normal normal 41px/51px Segoe UI;
     background: transparent linear-gradient(180deg, #CE5FA2 0%, #9A1F5E 53%, #4F1030 100%) 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;

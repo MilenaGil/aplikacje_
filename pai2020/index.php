@@ -17,5 +17,6 @@ Router::get('add', 'DefaultController');
 
 Router::post('login', 'SecurityController');
 Router::post('addSlope', 'SlopeController');
+Router::post('search', 'SlopeController');
 
 Router::run($path);

@@ -2,6 +2,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="public/css/szukaj.css">
     <script src="https://kit.fontawesome.com/9c10ee4fff.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./public/js/search.js" defer></script>
+
     <title>FIND PAGE</title>
 </head>
 <body>
@@ -25,7 +27,7 @@
     </div>
     <section class="slopes">
         <?php foreach($slopes as $slope): ?>
-            <div id="slope-1">
+            <div>
                 <img src="public/uploads/<?= $slope->getImage(); ?>">
                 <div>
                     <h2><?= $slope->getTitle(); ?></h2>
@@ -36,3 +38,13 @@
     </section>
 </div>
 </body>
+
+<template id="slope-template">
+    <div>
+        <img src="">
+        <div>
+            <h2>title</h2>
+            <p>description</p>
+        </div>
+    </div>
+</template>

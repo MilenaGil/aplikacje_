@@ -76,17 +76,4 @@ class SlopeController extends AppController
         return true;
     }
 
-    public function addUser()
-    {
-            $user = new User($_POST['name'], $_POST['surname'], $_POST['nickname'], $_POST['email'], $_POST['password']);
-            $this->userRepository->addUser($user);
-
-            return $this->render('', [
-                'messages' => $this->message,
-                'users' => $this->userRepository->getUsers()
-            ]);
-
-
-        return $this->render('rejestracja', ['messages' => $this->message]);
-    }
 }

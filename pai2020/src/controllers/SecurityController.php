@@ -53,7 +53,7 @@ class SecurityController extends AppController {
         $userRepository->addUser($user);
 
         $url = "http://$_SERVER[HTTP_HOST]";
-        header("Location: {$url}/");
+        header("Location: {$url}/menu");
 
 
     }

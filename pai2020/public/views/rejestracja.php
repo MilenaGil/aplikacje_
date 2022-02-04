@@ -10,7 +10,7 @@
             <img id="im" src="public/img/logo.svg">
         </div>
         <div class="reg-container">
-            <form action="register" class="reg">
+            <form action="register" method="POST" class="reg">
                 <div class="messages">
                     <?php
                     if(isset($messages)){

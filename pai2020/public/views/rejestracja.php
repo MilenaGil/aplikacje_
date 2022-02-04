@@ -10,14 +10,23 @@
             <img id="im" src="public/img/logo.svg">
         </div>
         <div class="reg-container">
-            <form class="reg">
+            <form action="register" class="reg">
+                <div class="messages">
+                    <?php
+                    if(isset($messages)){
+                        foreach($messages as $message) {
+                            echo $message;
+                        }
+                    }
+                    ?>
+                </div>
                 <input name="name" type="text" placeholder="imie">
                 <input name="surname" type="text" placeholder="nazwisko">
                 <input name="nickname" type="text" placeholder="nick">
                 <input name="email" type="text" placeholder="email@email.com">
                 <input name="password" type="password" placeholder="hasło">
                 <input name="confirmedPassword" type="password" placeholder="powtórz hasło">
-                <button>REJESTRACJA</button>
+                <button type="submit">REJESTRACJA</button>
             </form>
         </div>
     </div>

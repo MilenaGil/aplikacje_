@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/rejestracja.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/rejestracja.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <workItem from="1643913791008" duration="4824000" />
       <workItem from="1643970963201" duration="4665000" />
       <workItem from="1643975919838" duration="9975000" />
-      <workItem from="1644073001994" duration="5690000" />
+      <workItem from="1644073001994" duration="10071000" />
     </task>
     <servers />
   </component>

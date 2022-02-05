@@ -26,7 +26,7 @@ class SecurityController extends AppController {
             return $this->render('login', ['messages' => ['Nie ma użytkownika z tym e-mailem!']]);
         }
 
-        if ($user->getPassword() !== $password) {
+        if (!password_verify($password,$user->getPassword())) {
             return $this->render('login', ['messages' => ['Złe hasło!']]);
         }
 
@@ -46,15 +46,15 @@ class SecurityController extends AppController {
         $surname = $_POST['surname'];
         $nickname = $_POST['nickname'];
         $email = $_POST['email'];
-        $password = $_POST['password'];
+        $notHashPassword = $_POST['password'];
         $confirmedPassword = $_POST['confirmedPassword'];
 
 
-        if (!$name or !$surname or !$nickname or !$email or !$password or !$confirmedPassword) {
+        if (!$name or !$surname or !$nickname or !$email or !$notHashPassword or !$confirmedPassword) {
             return $this->render('rejestracja', ['messages' => ['Trzeba wypełnić wszystkie pola!']]);
         }
 
-        if ($confirmedPassword !== $password) {
+        if ($confirmedPassword !== $notHashPassword ) {
             return $this->render('rejestracja', ['messages' => ['Hasła nie są takie same!']]);
         }
 
@@ -62,6 +62,7 @@ class SecurityController extends AppController {
             return $this->render('rejestracja', ['messages' => ['To nie jest email!']]);
         }
 
+        $password=password_hash($notHashPassword, PASSWORD_DEFAULT);
         $user=new User($email, $password, $name, $surname, $nickname);
         $userRepository->addUser($user);
 

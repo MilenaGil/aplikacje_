@@ -62,6 +62,10 @@ class SecurityController extends AppController {
             return $this->render('rejestracja', ['messages' => ['To nie jest email!']]);
         }
 
+        if (!(is_null($userRepository->getUser($email)))) {
+            return $this->render('rejestracja', ['messages' => ['Istnieje użytkownik o tym emailu!']]);
+        }
+
         $password=password_hash($notHashPassword, PASSWORD_DEFAULT);
         $user=new User($email, $password, $name, $surname, $nickname);
         $userRepository->addUser($user);

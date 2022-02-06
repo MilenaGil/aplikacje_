@@ -196,23 +196,20 @@ input, textarea{
     margin: 2em;
 }
 
-.search-ski-slope::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #9a2061;
-  }
 
-.search-ski-slope{
+#search-ski-slope{
     position: absolute;
     left: 850px;
     width: 930px;
-    height: 80px;
+    height: 151px;
     background: #FDFDFD 0% 0% no-repeat padding-box;
+    border-radius: unset;
     border: 10px solid #047373;
-    text-decoration: none;
     margin: 13px;
     text-align: center;
     font: normal normal bold 57px/76px Segoe UI;
     letter-spacing: 2px;
-    color: #622975;
+    color: #9a2061;
 }
 
 .hamburger_icon{
@@ -313,11 +310,11 @@ input, textarea{
         margin: 2em;
     }    
     
-    .search-ski-slope{
+    #search-ski-slope{
 
         border: 14px solid #047373;
         position: absolute;
-        left: 207px;
+        left: 254px;
         top: 304px;
     }
    

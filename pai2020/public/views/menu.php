@@ -11,9 +11,9 @@
                 <div class="logo2">
                     <img id="im2"src="public/img/logo2.svg">
                 </div>
-                <div class="search-bar">
-                    <form >
-                        <input class="search-ski-slope" name="Wyszukaj stok" type="text" placeholder="Wyszukaj stok"  >
+                <div>
+                    <form class="szuk" action="szukaj" method="POST">
+                        <button id="search-ski-slope">Wyszukaj stok</button>
                     </form>
                 </div>
             </div>  

@@ -46,4 +46,6 @@ class UserRepository extends Repository
             $user->getNickname()
         ]);
     }
+
+    public function creatSession(User $user):
 }

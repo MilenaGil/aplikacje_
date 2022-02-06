@@ -21,7 +21,7 @@
         <section class="buttons">
             <div class="hamburger_icon">
                 <a href="#" class="burger_icon">
-                    <i  class="fas fa-bars extraClass" ></i>
+                    <i class="fas fa-bars extraClass" ></i>
                 </a>
             </div>
             <div class="buttons1">

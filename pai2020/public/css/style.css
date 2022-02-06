@@ -77,6 +77,18 @@ button{
     line-height: 2.5em;
 }
 
+#rej_b{
+    top: -235px;
+    width: 385px;
+    left: 235px;
+    position: relative;
+}
+
+#log_b{
+    position: relative;
+    left: -227px;
+}
+
 input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
   }
@@ -106,7 +118,7 @@ input, textarea{
     }
 
     .logo{
-        top: 260px;
+        top: 183px;
         left: 357px;
         width: 700px;
         height: 700px;
@@ -118,7 +130,7 @@ input, textarea{
 
     .login-container {
         width: 81vw;
-        height: 52vh;
+        height: 65vh;
         border: 12px solid #109494;
         border-radius: 85px;
     }
@@ -126,7 +138,7 @@ input, textarea{
 
     form.login {
         margin: 2em;
-        top: 35vh;
+        top: 31vh;
         left: 16px;
         position: absolute;
     }
@@ -141,6 +153,15 @@ input, textarea{
         font: normal normal 600 82px/67px Segoe UI;
     }
 
+    #rej_b{
+        top: 1556px;
+        width: 678px;
+        left: 10px;
+    }
+
+    #log_b{
+        left: auto;
+    }
 
     input{
         width: 65%;

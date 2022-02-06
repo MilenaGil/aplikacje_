@@ -26,34 +26,29 @@
             </div>
             <div class="buttons1">
 
-                <div class="button1">
-                    <a href="#" class="b1">
-                        <img id="img1" src="public/img/gora.svg">
-                        <i>moja lista stoków</i>
-                    </a>
-                    
-                </div>
+                <form class="mls" action="lista" method="POST">
+                    <button class="b1">
+                        <img id="img1" src="public/img/gora1.svg">
+                    </button>
+                </form>
 
-                <div class="button2">
-                    <a href="#" class="b2">
-                        <img id="img2" src="public/img/gora.svg">
-                        <i>mój profil</i>
-                    </a>
-                </div>
+                <form class="mp" action="profil" method="POST">
+                    <button class="b2">
+                        <img id="img2" src="public/img/gora2.svg">
+                    </button>
+                </form>
 
-                <div class="button3">
-                    <a href="#" class="b3">
-                        <img id="img3" src="public/img/gora.svg">
-                        <i>najlepsze stoki</i>
-                    </a>
-                </div>
+                <form>
+                    <button class="b3">
+                        <img id="img3" src="public/img/gora3.svg">
+                    </button>
+                </form>
 
-                <div class="button4">
-                    <a href="#" class="b4">
-                        <img id="img4" src="public/img/gora.svg">
-                        <i>czat społeczności</i>
-                    </a>
-                </div>
+                <form>
+                    <button class="b4">
+                        <img id="img4" src="public/img/gora4.svg">
+                    </button>2
+                </form>
             </div>
         </section>
     </div>

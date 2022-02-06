@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/gora2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gora3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gora4.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gora.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/gora1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +91,7 @@
       <workItem from="1643975919838" duration="9975000" />
       <workItem from="1644073001994" duration="14474000" />
       <workItem from="1644098049379" duration="4597000" />
-      <workItem from="1644106078924" duration="2639000" />
+      <workItem from="1644106078924" duration="4869000" />
     </task>
     <servers />
   </component>

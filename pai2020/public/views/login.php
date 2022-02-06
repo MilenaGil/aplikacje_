@@ -21,10 +21,7 @@
                 </div>
                 <input name="email" type="text" placeholder="email@email.com">
                 <input name="password" type="password" placeholder="hasło">
-                <button id="log_b" type="submit">ZALOGUJ</button>
-            </form>
-            <form class="rej" action="rejestracja" method="POST">
-                <button id="rej_b" type="submit">ZAREJESTRUJ</button>
+                <button type="submit">ZALOGUJ</button>
             </form>
         </div>
     </div>

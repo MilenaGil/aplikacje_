@@ -18,7 +18,9 @@ SQL
 JavaScript
 
 Docker
+
 ------------------------------------------------------------------------------
 Prototyp projektu zapisany jest jako '.pdf'.
 Baza danych przedstawiona jako ERD jest zapisana jako '.pdf'. i '.svg'.
+
 ------------------------------------------------------------------------------

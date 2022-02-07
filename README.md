@@ -26,4 +26,4 @@ Baza danych przedstawiona jako ERD jest zapisana jako 'ERD_apki_MG.pdf' ,'ERD_ap
 
 ------------------------------------------------------------------------------
 # ERD:
-![ERD schema](ERD.svg)
+![ERD schema](ERD_apki_MG.svg)

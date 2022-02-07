@@ -20,7 +20,7 @@ JavaScript
 Docker
 
 ------------------------------------------------------------------------------
-Prototyp projektu zapisany jest jako '.pdf'.
+Prototyp projektu zapisany jest jako 'Milena_Gil_proj_AdobeXD.pdf'.
 Baza danych przedstawiona jako ERD jest zapisana jako '.pdf'. i '.svg'.
 
 ------------------------------------------------------------------------------

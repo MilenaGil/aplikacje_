@@ -1,0 +1,345 @@
+
+body {
+    margin: 0;
+    background: transparent conic-gradient(from 90deg at 50% 50%,
+     #FFFFFF 0.00%, #325D67 3.50%, #31E1E5 11.25%, #189685 19.40%,
+      #FEFFFF 19.40%, #234241 29.84%, #31E1E5 36.25%, #1A9294 39.98%,
+       #06AAAA 40.64%, #20D5B9 41.24%, #3E9688 44.66%, #119C9D 48.98%,
+        #FFFFFF 49.36%, #27C2C7 52.72%, #223938 54.35%, #0CB0C2 58.23%,
+         #3BEEEE 73.18%, #FFFFFF 74.36%, #08817E 84.29%, #295850 93.60%,
+          #24CBB1 95.91%, #134A41 100.00%) 0% 0% no-repeat padding-box;
+
+}
+
+.container4{
+    width: 100vw;
+    height: 100vh; 
+    }
+
+#zdj_prof{
+    position: absolute;
+    top: 37px;
+    left: 1508px;
+}
+
+.logo4{
+    position: absolute;
+    top: 35px;
+    left: 38px;
+    width: 1278px;
+    height: 157px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #063432; 
+}
+
+.logo4>i{
+    position: relative;
+    top: -14px;
+    left: 558px;
+    width: 638px;
+    height: 133px;
+    text-align: center;
+    font: italic normal normal 100px/170px Segoe UI;
+    color: #073533;
+}
+
+#im4{
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    width: 391px;
+    height: 116px;
+}
+
+i.fas.fa-bars.extraClass{
+    color: #561134;
+}
+
+.hamburger_icon{
+    font-size: 5em;
+    top: 64px;
+    left: 1345px;
+    position: absolute;
+    width: 98px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #32344e;
+    border-radius: 27px;    
+}
+
+.hamburger_icon>a>i.fas.fa-bars{
+    top: 5px;
+    left: 14px;
+    position: relative;
+}
+
+.hamburger_icon>a:active {
+    color: #047373;
+}
+
+#im5{
+    position: relative;
+    top: 221px;
+    left: 38px;
+    width: 1413px;
+    height: 121px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #063432;
+}
+
+button{
+    background: none;
+    border: none;  
+}
+
+#im6{
+    position: absolute;
+    top: 923px;
+    left: 51px;
+    width: 594px;
+    height: 121px; 
+}
+
+#im7{
+    position: absolute;
+    top: 378px;
+    left: 865px;
+    width: 594px;
+    height: 121px; 
+}
+
+#im8{
+    position: absolute;
+    top: 363px;
+    left: 38px;
+    width: 813px;
+    height: 543px;
+}
+
+#im9{
+    position: absolute;
+    top: 522px;
+    left: 660px;
+    width: 800px;
+    height: 532px;
+}
+
+#im10{
+    position: absolute;
+    top: 473px;
+    left: 1503px;
+    width: 366px;
+    height: 90px;
+}
+
+#im11{
+    position: absolute;
+    top: 608px;
+    left: 1503px;
+    width: 366px;
+    height: 439px;
+}
+
+.skille-tekst{
+    text-align: center;
+    font: italic normal normal 30px/40px Segoe UI;
+    color: #073533;
+}
+
+#narty_i{
+    position: absolute;
+    top: 788px;
+    left: 1526px;
+    width: 310px;
+    height: 40px;
+}
+
+#snowboard_i{
+    position: absolute;
+    top: 978px;
+    left: 1555px;
+    width: 252px;
+    height: 40px;
+}
+
+/*wstepny 0% progres*/
+#narty_pb0{
+    position: absolute;
+    top: 760px;
+    left: 1528px;
+    width: 311px;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+
+#snowboard_pb0{
+    position: absolute;
+    top: 950px;
+    left: 1528px;
+    width: 311px;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+
+/*progres wlasciwy*/
+#narty_pb{
+    position: absolute;
+    top: 760px;
+    left: 1528px;
+    width: 196px;
+    background: #073533 0% 0% no-repeat padding-box;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+
+#snowboard_pb{
+    position: absolute;
+    top: 950px;
+    left: 1528px;
+    width: 0px;
+    background: transparent;
+    height: 17px;
+    border: 1px solid #319FA6;
+}
+
+@media only screen and (max-device-width: 1440px) {
+
+    body{
+        background-repeat: repeat;
+    }
+
+    #zdj_prof{
+        top: 376px;
+        left: 13px;
+        width: 1409px;
+        height: 1455px;
+    }
+    
+    .logo4{
+        width: 1092px;
+        height: 275px;
+    }
+    
+    .logo4>i{
+        top: 45px;
+        left: 489px;
+        font: italic normal bold 81px/170px Segoe UI;
+    }
+    
+    #im4{
+        top: 64px;
+        left: 26px;
+    }
+    
+    .hamburger_icon{
+        font-size: 10em;
+        top: 77px;
+        left: 1196px;
+        width: 168px;
+        height: 173px;
+        border: 11px solid #32344e;
+    }
+    
+    #im5{
+        position: absolute;
+        top: 3917px;
+        left: 53px;
+        width: 1327px;
+        height: 310px;
+    }
+    
+    #im6{
+        position: absolute;
+        top: 6143px;
+        left: 53px;
+        width: 1343px;
+        height: 310px;
+    }
+    
+    #im7{
+        position: absolute;
+        top: 6452px;
+        left: 53px;
+        width: 1343px;
+        height: 310px;
+    }
+    
+    #im8{
+        position: absolute;
+        top: 4285px;
+        left: 34px;
+        width: 1374px;
+        height: 893px;
+    }
+    
+    #im9{
+        position: absolute;
+        top: 5226px;
+        left: 34px;
+        width: 1374px;
+        height: 893px;
+    }
+    
+    #im10{
+        position: relative;
+        top: 1500px;
+        left: 45px;
+        width: 1337px;
+        height: 1053px;
+    }
+    
+    #im11{
+        position: relative;
+        top: 1178px;
+        left: 45px;
+        width: 1355px;
+        height: 1608px;
+    }
+    
+    #narty_i{
+        position: relative;
+        top: 0px;
+        left: -17px;
+        font: italic normal normal 98px/610px Segoe UI; 
+    }
+    
+    #snowboard_i{
+        width: 1012px;
+        height: 131px;
+        top: 3371px;
+        left: 197px;
+        font: italic normal normal 76px/629px Segoe UI;
+        font-size: 100px;
+        
+    }
+    
+    /*wstepny 0% progres*/
+    #narty_pb0{
+        left: 139px;
+        top: 2823px;
+        width: 1152px;
+        height: 62px;
+    }
+    
+    #snowboard_pb0{
+        left: 139px;
+        top: 3515px;
+        width: 1152px;
+        height: 62px;
+    }
+    
+    /*progres wlasciwy*/
+    #narty_pb{
+        left: 139px;
+        top: 2823px;
+        width: 726px;
+        height: 62px;
+    }
+    
+    #snowboard_pb{
+        left: 139px;
+        top: 3515px;
+        width: 1152px;
+        height: 62px;
+    }
+}

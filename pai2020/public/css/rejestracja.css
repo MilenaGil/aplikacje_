@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #F1F7F7 0%, #047373 53%, #09F8F8 100%) 0% 0% no-repeat padding-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+    text-align: center;
+    
+    
+    top: 118px;
+    left: 770px;
+    width: 381px;
+    height: 349px;
+
+    background: #07BBBB 0% 0% no-repeat padding-box;
+    border: 4px solid #109494;
+    border-radius: 53px;
+    margin-bottom: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.reg-container {
+    
+    text-align: center;
+    background: transparent linear-gradient(180deg, #C13476 0%, #392F82 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #109494;
+    border-radius: 52px;
+
+    top: 292px;
+    left: 379px;
+    width: 1750px;
+    height: 695px;
+        
+}
+
+.form.reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40vh;
+    position: fixed;
+
+}
+
+.messages{
+    color: #09f8f8;
+    font: normal normal 600 50px/48px Segoe UI;
+}
+
+button{
+    
+
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #92F3F1 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #109494;
+    border-radius: 57px;
+    font: normal normal 600 50px/67px Segoe UI;
+    width: 31.7%;
+    color: #025C5C;
+    margin: 1em;
+    line-height: 2.5em;
+}
+
+.back_to_log{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    width: 139px;
+    height: 103px;
+    border: 5px solid #32344e;
+    background: transparent linear-gradient(180deg, #C13476 0%, #392F82 100%) 0% 0% no-repeat padding-box;
+}
+
+.back_to_log>a{
+    text-decoration: none;
+}
+
+#back{
+    text-decoration: none;
+    font: normal normal bold 98px/73px Segoe UI;
+    color: white;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+  }
+
+input{
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FFFFFF;
+    text-align: left;
+    font: normal normal 600 38px/31px Segoe UI;
+    color: #FFFFFF;
+    padding: 0.5em;
+    margin: 0.8em;
+    width: 30%;
+
+}
+
+.no-valid {
+    border: 3px solid red;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em red;
+    outline: none;
+}
+
+
+@media only screen and (max-device-width: 1440px) {
+    .container {
+        flex-direction: column;
+    }
+
+    #im {
+        font-size: 36px;
+    }
+
+    .logo{
+        top: 40px;
+        left: 357px;
+        width: 700px;
+        height: 700px;
+        text-align: center;
+        position: absolute;
+        border: 12px solid #109494;
+        border-radius: 85px;
+    }
+
+    .reg-container {
+        width: 81vw;
+        height: 73vh;
+        border: 12px solid #109494;
+        border-radius: 85px;
+    }
+
+
+    form.reg {
+        margin: 2em;
+        top: 25vh;
+        left: 16px;
+        position: absolute;
+    }
+
+    .messages{
+
+    }
+
+    button{
+        width: 50%;
+        height: 3em;
+        font: normal normal 600 82px/67px Segoe UI;
+    }
+
+    input{
+        width: 65%;
+        text-align: center;
+        font: normal normal 600 58px/10px Segoe UI;
+
+    }
+    #im {
+        height: 15em;
+        margin: 2em;
+    }
+}

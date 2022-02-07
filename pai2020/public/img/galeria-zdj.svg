@@ -1,0 +1,13 @@
+<svg id="Component_27_1" data-name="Component 27 – 1" xmlns="http://www.w3.org/2000/svg" width="594" height="121" viewBox="0 0 594 121">
+  <g id="Rectangle_94" data-name="Rectangle 94" fill="#fff" stroke="#063432" stroke-width="3">
+    <rect width="594" height="121" stroke="none"/>
+    <rect x="1.5" y="1.5" width="591" height="118" fill="none"/>
+  </g>
+  <g id="Component_13_3" data-name="Component 13 – 3" transform="translate(63 19.665)">
+    <text id="Galeria_zdjęć" data-name="Galeria zdjęć" transform="translate(289.552 64)" fill="#073533" stroke="#073533" stroke-width="1" font-size="59" font-family="SegoeUI-Italic, Segoe UI" font-style="italic"><tspan x="-164.123" y="0">Galeria zdjęć</tspan></text>
+    <g id="Icon_ionic-md-photos" data-name="Icon ionic-md-photos" transform="translate(0 7.091)">
+      <path id="Path_396" data-name="Path 396" d="M58.208,56.056V14.527a6.668,6.668,0,0,0-6.652-6.652H10.027a6.668,6.668,0,0,0-6.652,6.652V56.072a6.668,6.668,0,0,0,6.652,6.652H51.572A6.688,6.688,0,0,0,58.208,56.056ZM20.4,37.784l7.057,9.97L37.848,32.8,51.556,52.738H10.027Z" transform="translate(-3.375 2.095)" fill="#073533"/>
+      <path id="Path_397" data-name="Path 397" d="M56.056,3.375H14.527a6.668,6.668,0,0,0-6.652,6.652v.826h40.7A6.668,6.668,0,0,1,55.231,17.5v40.7h.826a6.668,6.668,0,0,0,6.652-6.652V10.027A6.668,6.668,0,0,0,56.056,3.375Z" transform="translate(2.095 -3.375)" fill="#073533"/>
+    </g>
+  </g>
+</svg>

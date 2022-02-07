@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    background: transparent linear-gradient(180deg, #F1F7F7 0%, #047373 53%, #09F8F8 100%) 0% 0% no-repeat padding-box;
+}
+
+.container5{
+    width: 100vw;
+    height: 100vh; 
+}
+
+i.fas.fa-bars.extraClass{
+    color: #561134;
+}
+
+.hamburger_icon{
+    font-size: 5em;
+    top: 18px;
+    left: 1766px;
+    position: absolute;
+    width: 98px;
+    height: 96px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 5px solid #32344e;
+    border-radius: 27px;    
+}
+
+.hamburger_icon>a>i.fas.fa-bars{
+    top: 5px;
+    left: 14px;
+    position: relative;
+}
+
+.hamburger_icon>a:active {
+    color: #047373;
+}
+
+#ZKW{
+    position: absolute;
+    top: -13px;
+    left: 346px;
+    width: 1394px;
+    height: 154px;
+    text-align: center;
+    font: italic normal normal 116px/154px Segoe UI;
+    color: #073533;
+}
+
+#o1{
+    position: absolute;
+    top: 38px;
+    left: 13px;
+}
+
+.button5>button{
+    position: absolute;
+    top: 28px;
+    left: 228px;
+    text-decoration: none;
+    font: normal normal bold 98px/73px Segoe UI;
+    color: black;
+    background: transparent;
+    border: none;
+}
+
+.button5>:focus{
+    color: transparent;
+}
+
+#un1{
+    position: absolute;
+    top: 28px;
+    left: 206px;
+    width: 120px;
+    height: 88px;
+}
+
+#o2{
+    position: absolute;
+    top: 142px;
+    left: 1219px;
+}
+
+.buttons5>button{
+    background: transparent;
+    border: none;
+}
+
+#bu1{
+    position: absolute;
+    top: 566px;
+    left: 31px;
+}
+
+#bu2{
+    position: absolute;
+    top: 1025px;
+    left: 47px;
+}
+
+#bu3{
+    position: absolute;
+    top: 1025px;
+    left: 735px;
+}
+
+#bu4{
+    position: absolute;
+    top: 1025px;
+    left: 955px;
+}
+
+#bu5{
+    position: absolute;
+    top: 960px;
+    left: 525px;
+}
+
+#o3{
+    position: absolute;
+    top: 132px;
+    left: 31px;
+}
+
+#o4{
+    position: absolute;
+    top: 631px;
+    left: 31px;
+}
+
+#n1{
+    position: absolute;
+    top: 132px;
+    left: 527px;
+}
+
+.notka{
+    text-align: left;
+    font: italic normal normal 20px/31px Segoe UI;
+    color: #781949;
+}
+
+#trasa{
+    position: absolute;
+    top: 200px;
+    left: 687px;
+    width: 453px;
+    height: 93px;    
+}
+
+#dane1{
+    position: absolute;
+    top: 282px;
+    left: 682px;
+}
+
+#kolej{
+    list-style: none;
+    position: absolute;
+    top: 422px;
+    left: 652px;
+    width: 391px;
+    height: 186px;   
+}
+
+#ciekawostki{
+    list-style: none;
+    position: absolute;
+    top: 591px;
+    left: 650px;
+    width: 520px;
+    height: 372px;
+}
+
+@media only screen and (max-device-width: 1440px) {
+
+    body{
+        background: transparent linear-gradient(180deg, #EFF6F6 0%, #08D1D1 16%, #047373 53%, #08D1D1 84%, #EFF6F6 100%) 0% 0% no-repeat padding-box;
+        background-repeat: repeat;
+    }
+
+    .hamburger_icon{
+        font-size: 10em;
+        top: 52px;
+        left: 1178px;
+        width: 168px;
+        height: 173px;
+        border: 11px solid #32344e;
+    }
+    
+    #ZKW{
+        top: 291px;
+        left: 218px;
+        width: 1204px;
+    }
+    
+    #o1{
+        top: -30px;
+        left: -26px;
+        width: 1070px;
+        height: 395px; 
+    }
+    
+    .button5>button{
+        top: 354px;
+        left: 103px;
+        font: normal normal bold 154px/73px Segoe UI;
+    }
+    
+    #un1{
+        top: 319px;
+        left: 79px;
+        width: 160px;
+        height: 160px;
+    }
+    
+    #o2{
+        top: 2191px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #bu1{
+        top: 3205px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #bu2{
+        top: 3343px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #bu3{
+        top: 3484px;
+        left: 51px;
+        width: 590px;
+        height: 2014px;
+    }
+    
+    #bu4{
+        top: 3497px;
+        left: 673px;
+        width: 718px;
+        height: 1987px;
+    }
+    
+    #bu5{
+        top: 3650px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #o3{
+        top: 4336px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #o4{
+        top: 5497px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    #n1{
+        top: 451px;
+        left: 49px;
+        width: 1348px;
+        height: 1987px;
+    }
+    
+    .notka{
+        font: italic normal normal 42px/53px Segoe UI;
+    }
+
+    #trasa{
+        top: 792px;
+        left: 394px;
+        width: 977px;
+    }
+    
+    #dane1{
+        top: 946px;
+        left: 394px;
+        width: 790px;
+    }
+    
+    #kolej{
+        top: 1230px;
+        left: 348px;
+        width: 977px;
+    }
+    
+    #ciekawostki{
+        top: 1560px;
+        left: 348px;
+        width: 977px;
+    }
+}

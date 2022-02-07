@@ -18,6 +18,33 @@ class AppController {
         return $this->request === 'POST';
     }
 
+    protected function getSessionId(): ?string
+    {
+        if (!isset($_COOKIE['id_session']))
+            return '';
+        if (!$this->verifySession($_COOKIE['id_session']))
+            return null;
+
+        setcookie('id_session', $_COOKIE['id_session'], time() + 3600);
+        return $_COOKIE['id_session'];
+    }
+
+    protected function getCurrentUser(): ?User
+    {
+        $userRepository = new UserRepository();
+
+        if (!isset($_COOKIE['id_session']))
+            return null;
+        return $userRepository->getUserfromSession($this->getSessionId());
+    }
+
+    protected function verifySession(string $id_session): bool
+    {
+        $userRepository = new UserRepository();
+        return $userRepository->isValidSession($id_session);
+    }
+
+
     protected function render(string $template = null, array $variables = []){
         $templatePath = 'public/views/'. $template.'.php';
         $output = 'File not found';

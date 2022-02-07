@@ -4,43 +4,78 @@ require_once 'AppController.php';
 
 class DefaultController extends AppController{
 
+    private $messages = [];
+
+    public function isLog()
+    {
+        if (!isset($_COOKIE['id_session']))
+            return false;
+        if (is_null($this->getSessionId()))
+        {
+            $securityController = new SecurityController();
+            $securityController->stopSession();
+            $this->messages[] = 'Twoja sesja wygasła!';
+            return false;
+        }
+        return true;
+    }
+
     public function index()
     {
-        $this->render('login');
+        if (!$this->isLog())
+            $this->render('login', ['messages' => $this->messages]);
+        else
+            $this->menu();
+
     }
 
     public function rejestracja()
     {
-        $this->render('rejestracja');
+        if (!$this->isLog())
+            $this->render('rejestracja', ['messages' => $this->messages]);
+        else
+            $this->menu();
     }
 
     public function menu()
     {
-        $this->render('menu');
-    }
+        if ($this->isLog())
+            $this->render('menu');
+        else
+            $this->index();
 
-    public function pusta_lista()
-    {
-        $this->render('pusta_lista');
     }
 
     public function lista()
     {
-        $this->render('lista');
+        if ($this->isLog())
+            $this->render('lista');
+        else
+            $this->index();
     }
 
     public function kasprowy()
     {
-        $this->render('kasprowy');
+        if ($this->isLog())
+            $this->render('kasprowy');
+        else
+            $this->index();
     }
 
     public function profil()
     {
-        $this->render('profil');
+        if ($this->isLog())
+            $this->render('profil');
+        else
+            $this->index();
     }
 
     public function add()
     {
-        $this->render('add');
+        if ($this->isLog())
+            $this->render('add');
+        else
+            $this->index();
     }
+
 }

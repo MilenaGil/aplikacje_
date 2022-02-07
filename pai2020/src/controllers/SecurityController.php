@@ -6,6 +6,28 @@ require_once __DIR__ .'/../repository/UserRepository.php';
 
 class SecurityController extends AppController {
 
+    public function startSession(User $user): void
+    {
+        $userRepository = new UserRepository();
+        $SessionID=$userRepository->creatSession($user);
+        setcookie('id_session', $SessionID, time() + 3600);
+
+
+        $url = "http://$_SERVER[HTTP_HOST]";
+        header("Location: {$url}/menu");
+    }
+
+    public function stopSession(): void
+    {
+        if (isset($_COOKIE['id_session']))
+        {
+            $userRepository = new UserRepository();
+
+            $userRepository->deleteSession($_COOKIE['id_session']);
+            setcookie('id_session', $_COOKIE['id_session'], time() - 1);
+        }
+    }
+
     public function login(){
         $userRepository = new UserRepository();
 
@@ -30,8 +52,7 @@ class SecurityController extends AppController {
             return $this->render('login', ['messages' => ['Złe hasło!']]);
         }
 
-        $url = "http://$_SERVER[HTTP_HOST]";
-        header("Location: {$url}/menu");
+        $this->startSession($user);
     }
 
     public function register(){
@@ -70,9 +91,12 @@ class SecurityController extends AppController {
         $user=new User($email, $password, $name, $surname, $nickname);
         $userRepository->addUser($user);
 
-        $url = "http://$_SERVER[HTTP_HOST]";
-        header("Location: {$url}/menu");
+        $this->startSession($user);
+    }
 
-
+    public function logout()
+    {
+        $this->stopSession();
+        $this->render('login');
     }
 }

@@ -25,3 +25,5 @@ Prototyp projektu zapisany jest jako 'Milena_Gil_proj_AdobeXD.pdf'.
 Baza danych przedstawiona jako ERD jest zapisana jako 'ERD_apki_MG.pdf' ,'ERD_apki_MG.drawio' i 'ERD_apki_MG.svg'.
 
 ------------------------------------------------------------------------------
+# ERD:
+![ERD schema](ERD.svg)

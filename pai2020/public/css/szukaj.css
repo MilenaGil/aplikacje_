@@ -124,6 +124,23 @@ section {
     justify-content: space-between;
 }
 
+.plus{
+    position: absolute;
+    top: 46px;
+    left: 1593px;
+    width: 71px;
+    height: 94px;
+}
+
+.plus>a{
+    text-decoration: none;
+}
+
+#plus1{
+    text-decoration: none;
+    font: normal normal bold 98px/73px Segoe UI;
+    color: white;
+}
 
 @media only screen and (max-device-width: 1440px) {
 
@@ -167,6 +184,13 @@ section {
 
     input{
         width: 80%;
+    }
+
+    .plus{
+        top: 377px;
+        left: 837px;
+        width: 71px;
+        height: 94px;
     }
 
 }

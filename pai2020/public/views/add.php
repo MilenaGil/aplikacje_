@@ -9,7 +9,9 @@
     <header>
         <div class="header1">
             <div class="logo2">
-                <img id="im2"src="public/img/logo2.svg">
+                <a href="/menu">
+                    <img id="im2"src="public/img/logo2.svg">
+                </a>
             </div>
             <div class="naj-st">
                 <i>Dodaj stok:</i>

@@ -11,10 +11,15 @@
     <header>
         <div class="header1">
             <div class="logo2">
-                <img id="im2"src="public/img/logo2.svg">
+                <a href="/menu">
+                    <img id="im2"src="public/img/logo2.svg">
+                </a>
             </div>
             <div class="search-bar2">
                 <input name="rejon" type="text" placeholder="Rejon lub nazwa stoku">
+            </div>
+            <div class="plus">
+                <a href="/add"><i id="plus1">+</i></a>
             </div>
         </div>
     </header>

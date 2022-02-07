@@ -78,6 +78,26 @@ button{
     line-height: 2.5em;
 }
 
+.back_to_log{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    width: 139px;
+    height: 103px;
+    border: 5px solid #32344e;
+    background: transparent linear-gradient(180deg, #C13476 0%, #392F82 100%) 0% 0% no-repeat padding-box;
+}
+
+.back_to_log>a{
+    text-decoration: none;
+}
+
+#back{
+    text-decoration: none;
+    font: normal normal bold 98px/73px Segoe UI;
+    color: white;
+}
+
 input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
   }

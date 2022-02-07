@@ -7,7 +7,9 @@
 <body>
     <div class="container3">
         <div class="logo3">
-            <img id="l3" src="public/img/logo3.svg">
+            <a href="/menu">
+                <img id="l3" src="public/img/logo3.svg">
+            </a>
         </div>
         <header>
             <div class="search-bar2">
@@ -34,7 +36,7 @@
                 <button>X</button>
             </div>
             <div>
-                <a id="a_1" href="#">Zakopane Kasprowy Wierch</a>
+                <a id="a_1" href="/kasprowy">Zakopane Kasprowy Wierch</a>
             </div>
         </main>
     </div>

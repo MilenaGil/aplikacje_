@@ -9,7 +9,9 @@
         <header>
             <div class="logo4">
                 <i>nick: Milena_G</i>
-                <img id="im4" src="public/img/logo2.svg">
+                <a href="/menu">
+                    <img id="im4" src="public/img/logo2.svg">
+                </a>
             </div>
             <div class="hamburger_icon">
                 <a href="#" class="burger_icon">
@@ -26,9 +28,11 @@
         <button>
             <img id="im6" src="public/img/galeria-zdj.svg">
         </button>
-        <button>
-            <img id="im7" src="public/img/moje-stoki.svg">
-        </button>
+        <form class="mls" action="lista" method="POST">
+            <button>
+                <img id="im7" src="public/img/moje-stoki.svg">
+            </button>
+        </form>
         <div>
             <img id="im9" src="public/img/zdj-gor2.svg">
         </div>

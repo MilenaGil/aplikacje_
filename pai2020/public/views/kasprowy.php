@@ -8,7 +8,9 @@
     <div class="container5">
         <header>
             <div class="logo5">
-                <img id="o1" src="public/img/logo3.svg">
+                <a href="/menu">
+                    <img id="o1" src="public/img/logo3.svg">
+                </a>
             </div>
             <div class="hamburger_icon">
                 <a href="#" class="burger_icon">

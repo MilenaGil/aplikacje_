@@ -28,6 +28,9 @@
                 <input name="confirmedPassword" type="password" placeholder="powtórz hasło">
                 <button type="submit">REJESTRACJA</button>
             </form>
+            <div class="back_to_log">
+                <a href="/" ><i id="back"><- </i></a>
+            </div>
         </div>
     </div>
 </body>

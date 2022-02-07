@@ -24,6 +24,11 @@
                     <i class="fas fa-bars extraClass" ></i>
                 </a>
             </div>
+            <form class="log_out" action="logout" method="POST">
+                <div class="log_out_icon">
+                    <button class="fas fa-sign-out-alt extraClass" ></button>
+                </div>
+            </form>
             <div class="buttons1">
 
                 <form class="mls" action="lista" method="POST">

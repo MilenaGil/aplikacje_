@@ -23,17 +23,13 @@ class SlopeController extends AppController
     public function szukaj()
     {
         $slopes = $this->slopeRepository->getSlopes();
-
-        $this->render('szukaj', ['slopes' => $slopes]);
-    }
-/*
-    public function szukaj()
-    {
-        if ($this->isLog())
-            $this->render('szukaj', ['messages' => $this->messages]);
+        $defaultController = new DefaultController();
+        if ($defaultController->isLog())
+            $this->render('szukaj', ['slopes' => $slopes]);
         else
-            $this->index();
-    }*/
+            $defaultController->index();
+    }
+
 
     public function addSlope()
     {
@@ -53,7 +49,11 @@ class SlopeController extends AppController
             ]);
 
         }
-        return $this->render('add', ['messages' => $this->message]);
+        $defaultController = new DefaultController();
+        if ($defaultController->isLog())
+            return $this->render('add', ['messages' => $this->message]);
+        else
+            $defaultController->index();
     }
 
     public function search(){

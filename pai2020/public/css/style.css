@@ -235,9 +235,18 @@ input, textarea{
 .hamburger_icon>a:active {
     color: #047373;
 }
+.fas.fa-sign-out-alt{
+    position: absolute;
+    top: 163px;
+    left: -35px;
+    width: 122px;
+    height: 123px;
+    border: 5px solid #32344e;
+    border-radius: 3px;
+}
 
 #img1 {
-    top: 287px;
+    top: 345px;
     left: 63px;
     position: absolute;
 }

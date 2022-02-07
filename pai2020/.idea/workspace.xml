@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d437dd36-4d90-486c-b9c7-acc38a1ed5bc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/rejestracja.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/rejestracja.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/szukaj.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/szukaj.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/lista.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/lista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/profil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/rejestracja.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/rejestracja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/szukaj.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/szukaj.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +95,7 @@
       <workItem from="1644098049379" duration="4597000" />
       <workItem from="1644106078924" duration="6994000" />
       <workItem from="1644154185927" duration="34162000" />
-      <workItem from="1644241306890" duration="10341000" />
+      <workItem from="1644241306890" duration="11087000" />
     </task>
     <servers />
   </component>

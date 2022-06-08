@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------
 
 Jest to aplikacja dla fanów narciarstwa i snowbordu ze spisem stoków i informacjami o nich oraz profilami użytkowników, którzy mogą dodać informacje o nowym stoku 
-do bazy wszystkich stków oraz dzielić się swoją pasją.
+do bazy wszystkich stoków oraz dzielić się swoją pasją.
 
 ------------------------------------------------------------------------------
 # Użyte technologie:
